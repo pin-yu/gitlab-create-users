@@ -1,0 +1,9 @@
+[global]
+default = datalab_gitlab
+ssl_verify = true
+timeout = 5
+
+[datalab_gitlab]
+url = https://shwu10.cs.nthu.edu.tw/
+private_token = xxxxxxxxxxxxx
+api_version = 4
