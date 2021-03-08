@@ -1,4 +1,6 @@
-# Easily Create Users of Gitlab
+# Easily Create Users for Gitlab
+
+TA could create users' Gitlab account through this repo.
 
 ## Usage
 
@@ -15,6 +17,10 @@ cp python-gitlab.cfg.example python-gitlab.cfg
 After that copy your private token and paste it to the cfg file.
 
 You probably need to grant `api` and `sudo` permission for creating users.
+
+### Download member.xls file from ILMS
+
+:)
 
 ### Run the script to create users
 ```bash
