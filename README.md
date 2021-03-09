@@ -27,5 +27,8 @@ You probably need to grant `api` and `sudo` permission for creating users.
 python ./create_users/main.py --xls [MEMBER XLS]
 ```
 
-
+## Change Log
+- 2021/3/9
+    - fix errors while creating a existing user
+    - display more information when we are creating users
 
