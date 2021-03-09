@@ -7,5 +7,5 @@ def create_user(query):
     try:
         gl.users.create(query)
         print("create a user: {}".format(query))
-    except gitlab.exceptions.GitlabHttpError:
-        print("user exists".format(query))
+    except gitlab.exceptions.GitlabCreateError:
+        print("user exists: {}".format(query))
